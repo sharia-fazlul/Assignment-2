@@ -48,6 +48,7 @@ header {
   align-items: center;
 }
 #banner-button {
+  gap: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,25 +83,28 @@ header {
   height: 760px;
 }
 #banner-image > div > img {
+  padding-left: 20px;
+  border-radius: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #banner-image {
+  margin: 0 auto;
   position: relative;
   gap: 40px;
-  padding: 101px;
+  padding: 101px 100px 209px 100px;
 }
 .tooltip {
   position: absolute;
-  left: 46%;
-  bottom: 49%;
+  left: 47%;
+  bottom: 57%;
 }
 .tooltip2 {
   position: absolute;
-  left: 96%;
-  bottom: 99%;
+  left: 90%;
+  bottom: 104%;
 }
 .extra-info {
   color: white;
@@ -108,4 +112,53 @@ header {
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
+}
+.podcast {
+  width: 1600px;
+  height: 648px;
+  color: whitesmoke;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about > h1 {
+  font: bold;
+  font-size: 48px;
+  font-weight: 800;
+}
+.about > p {
+  color: rgba(190, 184, 184, 0.563);
+  font: normal;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.stat {
+  width: 1200px;
+  height: 95px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 200px 120px 200px;
+}
+/* common stat styles */
+.common {
+  color: #00ff88;
+  font: 800;
+  font-size: 38px;
+  padding-bottom: 16px;
+}
+.common-p {
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.511);
 }
