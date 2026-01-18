@@ -162,3 +162,69 @@ header {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.511);
 }
+.grid {
+  background-color: #230e3d;
+  width: 100%;
+  max-width: 1600px;
+  height: 950px;
+}
+.grid-container {
+  padding-bottom: 120px 200px 120px 200px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+}
+.box1 {
+  grid-row: 1 / span 2;
+  width: 380px;
+  height: 100%;
+  padding: 40px 40px 40px 40px;
+  gap: 16;
+  border-radius: 40px;
+  background-color: #441b789e;
+  text-align: start;
+}
+.box2 {
+  grid-column: 2 / span 2;
+  width: 790px;
+  height: 100%;
+  padding: 40px 40px 40px 40px;
+  gap: 16;
+  border-radius: 40px;
+  background-color: #441b789e;
+  text-align: start;
+}
+.box3 {
+  grid-column: 2 / span 2;
+  width: 790px;
+  padding: 40px 40px 40px 40px;
+  gap: 16;
+  border-radius: 40px;
+  background-color: #441b789e;
+  text-align: start;
+  margin-top: 30px;
+}
+.box4 {
+  grid-column: 1 / span 2;
+  width: 790px;
+  padding: 40px 40px 40px 40px;
+  gap: 16;
+  border-radius: 40px;
+  background-color: #441b789e;
+  text-align: start;
+  margin-top: 40px;
+}
+.box5 {
+  width: 380px;
+  height: 100%;
+  padding: 40px 40px 40px 40px;
+  gap: 16;
+  border-radius: 40px;
+  background-color: #441b789e;
+  text-align: start;
+  margin-top: 40px;
+  margin-left: 12px;
+}
