@@ -14,39 +14,85 @@
     />
   </head>
   <body>
-    <header></header>
-    <nav class="container">
-      <div>
-        <h1>
-          TECH
-          <span
+    <header>
+      <nav class="container">
+        <div>
+          <h1>
+            TECH
+            <span
+              style="
+                background: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);
+                background-clip: text;
+                color: transparent;
+              "
+              >WAVE</span
+            >
+          </h1>
+        </div>
+        <div id="about">
+          <p>About</p>
+          <p>Episods</p>
+          <p>Host</p>
+        </div>
+        <div>
+          <button
+            id="btn-1"
             style="
-              background: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);
-              background-clip: text;
-              color: transparent;
+              background-image: linear-gradient(
+                90deg,
+                #f7e93f,
+                #fb09b4,
+                #9100f8
+              );
+              background-clip: border-box;
+              color: whitesmoke;
             "
-            >WAVE</span
           >
-        </h1>
-      </div>
-      <div id="about">
-        <p>About</p>
-        <p>Episods</p>
-        <p>Host</p>
-      </div>
-      <div>
-        <button
-          id="btn-1"
-          style="
-            background-image: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);
-            background-clip: border-box;
-            color: whitesmoke;
-          "
-        >
-          Subscribe <img src="./assets/Vector.png" alt="" />
-        </button>
-      </div>
-    </nav>
+            Subscribe <img src="./assets/Vector.png" alt="" />
+          </button>
+        </div>
+      </nav>
+      <section id="banner-section" style="background-image: url(./assets/hero-bg.png);">
+        <div id="banner-image">
+          <div>
+            <img src="./assets/hero-circle.png" alt="" />
+            <div class="tooltip">
+              <img src="./assets/microphone.png" alt="" />
+              <div class="tooltip2">
+              <img src="./assets/Frame 2087326323.png" alt="" />
+            </div>
+          </div>
+
+          <div class="extra-info">
+            <h1 style="font-size: 60px;
+font-weight: 800;">TECHWAVE</h1>
+            <p style="font-size: 16px;
+font-weight: 400; padding-bottom:  24px;">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div id="banner-button">
+            <div>
+            <button id="btn-2" style="
+              background-image: linear-gradient(
+                90deg,
+                #f7e93f,
+                #fb09b4,
+                #9100f8
+              );
+              background-clip: border-box;
+              color: whitesmoke;
+            ">
+              <img src="./assets/spotify.png" alt="" />Listen on Spotify
+            </button></div>
+            <div>
+            <button id="btn-3">
+              <img src="./assets/message.png" alt="" />Subscribe
+            </button></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
