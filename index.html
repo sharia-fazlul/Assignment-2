@@ -12,6 +12,66 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      @media screen and (max-width: 576px) {
+  #about,
+  #btn-1 {
+    display: none;
+  }
+  #burger-menu {
+    display: inline;
+  }
+ 
+.tooltip {
+  position: absolute;
+  left: 42%;
+  bottom: 57%;
+}.extra-info {
+  width: 400px;
+  margin-top: 40px;
+}
+.about{
+  width: 400px;
+  height: 207px;
+}
+.stat{
+  width: 400px;
+  height: 208px;
+  margin: 0 auto;
+}
+.cards{
+ justify-content: center;
+}
+.card-container {
+  /* background-color: #250d44; */
+   width: 440px;
+  /* height: 440px; */
+  /* margin-right: 0 auto;
+  text-align: center;
+  display: grid;
+  align-items: center; */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  padding-left: 105px;
+}
+.card-heading{
+  width: 440px;
+  gap: 30px;
+  padding-left: 105px;
+  padding-bottom: 30px;
+}
+.host-container{
+  text-align: start;
+  width: 440px;
+  height: 1000px;
+  gap: 24px;
+}
+.host-info{
+  
+
+}
+}
+    </style>
   </head>
   <body>
     <header>
@@ -50,6 +110,7 @@
           >
             Subscribe <img src="./assets/Vector.png" alt="" />
           </button>
+          <div id="burger-menu"><img src="./assets/hamburger-menu.png" alt=""></div>
         </div>
       </nav>
       <section id="banner-section" style="background-image: url(./assets/hero-bg.png);">
@@ -122,33 +183,27 @@ padding-bottom: 40px;">Why Choose TechWave</h1>
         </div>
     </section>
     <section class="cards">
-      <h1 style="text-align:center;">Featured Episodes</h1>
+      <h1 class="card-heading" style="text-align:center;"><br>  Featured Episodes</h1>
       <div class="card-container">
       <div class="card-content">
-        <img src="./assets/Rectangle 1.png" alt=""><button class="btn-4" ><img style="
-  background-image: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);width: 40px;height: 40px;border-radius: 50%;
-" src="./assets/mdi_play.png" alt=""></button>
+<iframe style="border-radius: 24px 24px 0px 0px;;" width="380" height="214" src="https://www.youtube.com/embed/CRraHg4Ks_g?si=xxAeMK5-Ky_V4uT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h2 style="text-align: start;">The Future of AI in Everyday Life</h2>
         <p style="text-align: start;">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-        <p style="text-align: start;"><img src="./assets/clock.png" alt="">42 min</p>
+        <p class="length" style="text-align: start; text-align:left;"><img src="./assets/clock.png" alt="">20 min</p>
 
       </div>
       <div class="card-content">
-        <img src="./assets/Rectangle 2.png" alt=""><button id="btn-5"  ><img style="
-  background-image: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);width: 40px;height: 40px;border-radius: 50%;
-" src="./assets/mdi_play.png" alt=""></button>
-        <h2 style="text-align: start;">The Future of AI in Everyday Life</h2>
+        <iframe style="border-radius: 24px 24px 0px 0px;;" width="380" height="214" src="https://www.youtube.com/embed/VuZnXq9exp8?si=8DXitK9TRXFj6MNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 style="text-align: start;">Building Better Habits for Remote Work</h2>
         <p style="text-align: start;">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-        <p style="text-align: start;"><img src="./assets/clock.png" alt="">42 min</p>
+        <p class="length" style="text-align: start;"><img src="./assets/clock.png" alt="">12 min</p>
 
       </div>
       <div class="card-content">
-        <img src="./assets/Rectangle 3.png" alt=""><button id="btn-6"><img  style="
-  background-image: linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8);width: 40px;height: 40px;border-radius: 50%;
-"  src="./assets/mdi_play.png" alt=""></button>
-        <h2 style="text-align: start;">The Future of AI in Everyday Life</h2>
+        <iframe style="border-radius: 24px 24px 0px 0px;;" width="380" height="214" src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=DNZ4X78DLKY-x0t3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 style="text-align: start;">Career Growth in Tech: A Roadmap</h2>
         <p style="text-align: start;">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-        <p ><img src="./assets/clock.png" alt="">42 min</p>
+        <p class="length" style="text-align: start;"><img src="./assets/clock.png" alt=""> 5 min</p>
 
       </div>
       </div>
@@ -156,8 +211,7 @@ padding-bottom: 40px;">Why Choose TechWave</h1>
     <section class="final" style="background-color: #1a0b2e;padding-top: 10px;padding-bottom: 120px;">
         <h1>Meet the Host</h1>
         <div class="host-container">
-        <!-- <div class="host-info"></div> -->
-        <div><img src="./assets/host.png" alt=""></div>
+        <div class="host-image"><img src="./assets/host.png" alt=""></div>
         <div class="host-info">
           <h3>Alex Kumar</h3>
           <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
