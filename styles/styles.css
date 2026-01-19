@@ -30,6 +30,7 @@ header {
   align-items: center;
 }
 #about {
+  background-color: #1a0b2e;
   font-size: 16px;
   font-weight: 500;
   width: 218px;
@@ -122,6 +123,7 @@ header {
   margin-top: 40px;
 }
 .podcast {
+  background-color: #1a0b2e;
   width: 1600px;
   height: 648px;
   color: whitesmoke;
