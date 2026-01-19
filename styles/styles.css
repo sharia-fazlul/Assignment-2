@@ -294,7 +294,6 @@ header {
 }
 .host-info > ul {
   text-decoration: none;
-
   width: 184px;
   height: 40px;
   border-radius: 50%;
@@ -303,4 +302,38 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-container {
+  width: 100%;
+  height: 412px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu {
+  width: 1360;
+  height: 172;
+  gap: 32px;
+}
+.footer-menu > h1 {
+  width: 410px;
+  height: 60px;
+  font: bold;
+  font-size: 50px;
+}
+.footer-menu > ul {
+  font: normal;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.footer-menu > p {
+  font-size: 16px;
+  margin-top: 32px;
 }
